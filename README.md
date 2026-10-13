@@ -25,6 +25,13 @@
 - An SSH key pair that is **not passphrase-protected** (or is loaded in `ssh-agent`); the tunnel runs non-interactively
 - An existing OCI Bastion that allows your public IP in its client CIDR allow list, can reach the target on the target port, and IAM permissions to manage Bastion sessions
 
+## Install
+
+```powershell
+git clone https://github.com/hanzla2006/OCI-Bastion-Script.git
+cd OCI-Bastion-Script
+```
+
 ## Quick start
 
 ```powershell
@@ -128,4 +135,4 @@ SSH errors during startup are shown in the script output. The ssh stderr log is 
 
 ## License
 
-Add a `LICENSE` file (MIT is a common default) and reference it here.
+MIT. See [LICENSE](LICENSE).
