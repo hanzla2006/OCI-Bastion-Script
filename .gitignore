@@ -1,0 +1,5 @@
+*.key
+*.pem
+id_*
+!*.pub
+*.log
